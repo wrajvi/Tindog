@@ -1,0 +1,157 @@
+body{
+	/*margin: 0;*/
+}
+#title{
+	background-color: #ff4c68;
+	padding: 5% 10%;
+	color: #fff;
+	height: 50%;
+}
+h1{
+	padding-top: 3%;
+	text-align: left;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	padding-bottom: 3%;
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-size: 1.3rem;
+	padding: 6% 20% 2% 20%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+
+/*Navbar*/
+.navbar{
+	padding: 0 0 5% 0;
+}
+.navbar-brand{
+	font-size: 2.5rem;
+}
+#title-div{
+ height: 30%;
+}
+.title-image{
+	width: 60%;
+	height: 80%;
+	transform: rotate(25deg);
+	position: relative;
+	left: 7%;
+}
+
+/*Features*/
+
+#features{
+	padding: 7% 15% 3% 15%;
+	text-align: center;
+	background-color: #fff;
+}
+.feature-icon{
+	color: #ef8172;
+	margin-bottom: 2rem;
+}
+.feature-para{
+	color: #8f8f8f;
+	width: 100%;
+	padding: 0% 6%;
+}
+.feature-icon:hover{
+	color: #ff4c68;
+}
+.feature-box{
+	margin: 10% 0%;
+}
+
+
+/*Testimonials*/
+#testimonials{
+	background-color:#ff4c68;
+	text-align: center;
+	color: #fff;
+	/*height: 100%;*/
+	/*padding-bottom: 7rem;*/
+}
+.testimonials-img{
+	border-radius: 50rem;
+	height: 8rem;
+	margin-top: 2rem;
+	margin-right: 1rem;
+}
+.testimonials-indicators{
+	position: relative;
+	top: 50px;
+}
+
+/*press*/
+
+#press{
+	background-color:#ff4c68;
+	text-align: center;
+	padding: 5%;
+}
+.press-image{
+	width: 15%;
+	margin: 2rem;
+}
+.card{
+	margin-top: 5%;
+}
+
+/*Pricing*/
+
+#pricing{
+	text-align: center;
+	padding: 5% 10%;
+}
+.pricing-table{
+	margin-top: 3rem;
+}
+.card{
+	margin-right: 1rem;
+}
+
+/*CTA*/
+
+#cta{
+	background-color:#ff4c68 ;
+	text-align: center;
+	color: #fff;
+	padding: 5% 20%;
+}
+.cta-text{
+	font-size: 3.5rem;
+	margin-bottom: 2rem;
+	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*footer*/
+#footer{
+	text-align: center;
+	padding: 7% 15%;
+}
+.footer-icon{
+	margin: 2rem 0.5rem;
+	color: black;
+}
+
+/*Media*/
+
+@media(max-width:992px){
+	    #title{
+	    	text-align: center;
+	    }
+	    #title-div{
+	    	text-align: center;
+	    }
+           h1{
+           	text-align: center;
+           }
+           .title-image{
+           	margin-top: 7%;
+           }
+}
